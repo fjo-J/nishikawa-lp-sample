@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中小企業のためのDX・GX実践研修</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background-color: #f8fafc;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #4f46e5, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2832&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .section-title {
+            font-weight: 900;
+            font-size: 2.25rem; /* 36px */
+            line-height: 2.5rem; /* 40px */
+            text-align: center;
+            margin-bottom: 2.5rem; /* 40px */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in-up {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="text-xl font-bold text-gray-800">
+                <span class="text-indigo-600">NMC</span> DX・GX研修
+            </div>
+            <a href="#contact" class="bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300 text-sm md:text-base cta-button">
+                無料相談はこちら
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg relative text-white py-20 md:py-32">
+        <div class="absolute inset-0 bg-gray-900/60"></div>
+        <div class="container mx-auto px-6 text-center relative">
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 md:p-8 max-w-4xl mx-auto">
+                <p class="text-sm md:text-base font-bold text-pink-400 uppercase tracking-widest mb-2">助成金活用で未来への投資を</p>
+                <h1 class="text-4xl md:text-6xl font-black mb-4 leading-tight">
+                    中小企業のための<br class="md:hidden"><span class="gradient-text" style="background: linear-gradient(90deg, #a5b4fc, #f9a8d4); -webkit-background-clip: text;">DX・GX</span> 実践研修
+                </h1>
+                <p class="text-lg md:text-2xl mb-8 font-bold">
+                    最大<span class="text-5xl md:text-7xl font-black mx-2">75</span>%助成で、<br class="md:hidden">“実行できる組織”を社内に。
+                </p>
+                <p class="text-xs text-gray-300 mb-8">※中小企業と大企業では助成率が異なります</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#contact" class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg cta-button">
+                        今すぐ無料相談する
+                    </a>
+                    <a href="#download" class="bg-gray-700/50 border-2 border-gray-400 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg cta-button hover:bg-gray-700">
+                        資料をダウンロード
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="py-16 md:py-24 bg-indigo-50">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-gray-800">1つでも当てはまったら<span class="text-indigo-600">要注意</span>。<br>未来を左右する経営課題です。</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-xl shadow-lg p-6 flex items-start space-x-4 border-l-4 border-indigo-500">
+                    <svg class="w-10 h-10 text-indigo-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">何から始めるべきか不明</h3>
+                        <p class="text-gray-600">DXやGXと言われても、自社で何をすればいいか分からない…</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 flex items-start space-x-4 border-l-4 border-indigo-500">
+                    <svg class="w-10 h-10 text-indigo-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">リソース不足</h3>
+                        <p class="text-gray-600">新しい取り組みをしたいけど、時間も人も足りない。</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 flex items-start space-x-4 border-l-4 border-indigo-500">
+                     <svg class="w-10 h-10 text-indigo-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">外部からのプレッシャー</h3>
+                        <p class="text-gray-600">取引先からのDX・ESG対応要求が増えてきたが、まだ手を付けられていない。</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 flex items-start space-x-4 border-l-4 border-indigo-500">
+                    <svg class="w-10 h-10 text-indigo-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">複雑な手続き</h3>
+                        <p class="text-gray-600">助成金は使いたいけど、調べても難しくて結局動けていない。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Risk Section -->
+    <section class="py-16 md:py-24 bg-rose-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-rose-800 mb-4">このまま先延ばしにしていると…</h2>
+            <p class="max-w-3xl mx-auto text-rose-700 text-lg mb-12">他社はDX・GX、そして助成金の活用を推進しています。先延ばしにする代償は、想像以上に大きくなる可能性があります。</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-rose-500">
+                    <svg class="w-12 h-12 text-rose-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"></path></svg>
+                    <h3 class="font-bold text-xl mb-2">信頼の低下</h3>
+                    <p class="text-gray-600">取引先から「対応が遅れている」と判断され、ビジネスチャンスを失う。</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-rose-500">
+                    <svg class="w-12 h-12 text-rose-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21v-2a4 4 0 00-4-4H9M15 21a2 2 0 002-2v-2a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2h2z"></path></svg>
+                    <h3 class="font-bold text-xl mb-2">人材の停滞</h3>
+                    <p class="text-gray-600">新しいことに対応できる人材が育たず、組織全体が時代の変化に取り残される。</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-rose-500">
+                    <svg class="w-12 h-12 text-rose-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    <h3 class="font-bold text-xl mb-2">機会損失</h3>
+                    <p class="text-gray-600">脱炭素やESGといった社会的要請に応えられず、新たな取引機会を逃す。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">DX・GXを学び、<span class="gradient-text">実行力</span>を社内に創る<br>研修プログラム</h2>
+            <p class="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-12">
+                この研修は、経営者にとって「事業成長のヒント」となり、スタッフにとって「日々の業務に役立つ知識とスキル」になります。オンライン完結のeラーニングで、全社員が共通の最新知識を持ち、具体的な行動へつなげます。
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center max-w-6xl mx-auto">
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <div class="bg-indigo-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">推進できる人材が育つ</h3>
+                    <p class="text-gray-600">自社の課題に落とし込む実践的なプログラムで、現場で活用できるスキルが身につきます。</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <div class="bg-green-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-12 h-12 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">業務改善アイデアが生まれる</h3>
+                    <p class="text-gray-600">日々の業務の「ムダ」を見つけ、生産性向上やエネルギーコスト削減に繋げます。</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <div class="bg-purple-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-12 h-12 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">社外からの信頼を獲得</h3>
+                    <p class="text-gray-600">「選ばれる企業」に必須のESG対応力を身につけ、信頼性向上と新たな機会創出へ。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is DX/GX Section -->
+    <section class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">そもそも「DX」「GX」とは？<br>なぜ今、取り組む必要があるのか</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 max-w-6xl mx-auto">
+                <div class="bg-white p-8 rounded-2xl shadow-xl">
+                    <h3 class="text-3xl font-black mb-4 flex items-center text-indigo-600">DX <span class="text-lg ml-3 font-bold text-gray-700">デジタルトランスフォーメーション</span></h3>
+                    <p class="text-gray-600 mb-6">デジタル技術を活用し、ビジネスモデルや業務そのものを変革すること。</p>
+                    <div class="bg-indigo-50 p-6 rounded-lg">
+                        <h4 class="font-bold text-lg text-indigo-800 mb-3">DXが急務である理由：「2025年の崖」</h4>
+                        <p class="text-indigo-700 mb-4">多くの企業が抱える老朽化したITシステム（レガシーシステム）を放置すると、<strong class="text-red-600">2025年以降、最大で年間12兆円の経済損失</strong>が生じる可能性があると警告されています。</p>
+                        <ul class="list-disc list-inside space-y-2 text-indigo-700">
+                            <li>業務プロセス効率化</li>
+                            <li>データ活用による意思決定</li>
+                            <li>新たな顧客体験の創出</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-xl">
+                    <h3 class="text-3xl font-black mb-4 flex items-center text-green-600">GX <span class="text-lg ml-3 font-bold text-gray-700">グリーントランスフォーメーション</span></h3>
+                    <p class="text-gray-600 mb-6">化石燃料からクリーンエネルギーへの転換を進め、社会経済全体の変革を目指すこと。</p>
+                    <div class="bg-green-50 p-6 rounded-lg">
+                        <h4 class="font-bold text-lg text-green-800 mb-3">GXが必須である理由：ESG経営とサプライチェーン</h4>
+                        <p class="text-green-700 mb-4">環境（E）・社会（S）・ガバナンス（G）を重視する<strong class="text-red-600">ESG経営は、今や企業の評価を左右する世界の潮流</strong>です。取引先から環境対応を求められ、応えられない企業はサプライチェーンから外されるリスクがあります。</p>
+                         <ul class="list-disc list-inside space-y-2 text-green-700">
+                            <li>カーボンニュートラルへの移行</li>
+                            <li>エネルギー効率の向上</li>
+                            <li>持続可能なビジネスモデルの構築</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subsidy Infographic -->
+    <section class="py-16 md:py-24 bg-indigo-700 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-black mb-12">助成金を賢く活用し、<br class="md:hidden">月々わずかな負担で未来へ投資</h2>
+            <div class="max-w-4xl mx-auto bg-white/10 backdrop-blur-md p-8 rounded-2xl">
+                <p class="text-lg mb-4">人材開発支援助成金を活用することで、<br class="sm:hidden">研修費用を大幅に抑えることが可能です。</p>
+                <div class="my-8">
+                    <p class="text-lg">中小企業なら、実質負担額は…</p>
+                    <p class="font-black text-amber-300 leading-none"><span class="text-6xl md:text-8xl">月々5,000円</span><span class="text-2xl md:text-3xl">/名〜</span></p>
+                    <p class="text-lg mt-2">でDX/GX研修が受け放題！</p>
+                </div>
+                <p class="text-sm mt-4 mb-8">助成金の申請から支給まで、専門スタッフがフルサポート。<br>貴社が対象になるかどうかも無料でチェックできます。</p>
+                 <a href="#contact" class="bg-amber-400 text-indigo-800 font-bold py-4 px-10 rounded-full text-xl shadow-lg cta-button">
+                    無料で助成対象か確認する
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ESG Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">DX・GXの推進がESG投資と<br>「選ばれる企業」への鍵になる</h2>
+            <div class="max-w-6xl mx-auto relative">
+                <!-- Central Element -->
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="w-48 h-48 md:w-64 md:h-64 bg-indigo-600 rounded-full flex flex-col items-center justify-center text-white shadow-2xl z-10 p-4">
+                        <svg class="w-12 h-12 md:w-16 md:h-16 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"></path></svg>
+                        <span class="text-xl md:text-2xl font-bold">企業価値向上</span>
+                    </div>
+                </div>
+                
+                <!-- Surrounding Cards -->
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+                    <div class="bg-gray-100 p-6 rounded-xl text-center z-0 transform lg:translate-y-24">
+                        <h3 class="text-xl font-bold text-indigo-700 mb-2">DX</h3>
+                        <p class="text-sm text-gray-600">データ活用による透明性確保とサプライチェーンの可視化</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-xl text-center z-0 transform lg:-translate-y-24">
+                        <h3 class="text-xl font-bold text-green-700 mb-2">GX</h3>
+                        <p class="text-sm text-gray-600">環境負荷軽減と持続可能なサプライチェーン構築</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-xl text-center z-0 transform lg:translate-y-24">
+                        <h3 class="text-xl font-bold text-purple-700 mb-2">ESG投資</h3>
+                        <p class="text-sm text-gray-600">社会的責任への投資拡大と長期的な企業価値向上</p>
+                    </div>
+                     <div class="bg-gray-100 p-6 rounded-xl text-center z-0 transform lg:-translate-y-24">
+                        <h3 class="text-xl font-bold text-rose-700 mb-2">人権価値創造</h3>
+                        <p class="text-sm text-gray-600">公正な労働環境の実現と持続可能な社会貢献</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Now Section -->
+    <section class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">なぜ<span class="gradient-text">今</span>、DX・GXに<br class="sm:hidden">取り組むべきなのか？</h2>
+            <div class="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-2xl shadow-xl">
+                <p class="text-lg text-gray-700 mb-8">いま、企業に求められているのは「デジタル化」「脱炭素化」だけではありません。その背景にあるのが、**ESG（環境・社会・ガバナンス）**への対応です。これはすでに、大企業や海外との取引では**当たり前の条件**になりつつあります。</p>
+                
+                <div class="flow-root">
+                  <ul class="-mb-8">
+                    <li>
+                      <div class="relative pb-8">
+                        <span class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>
+                        <div class="relative flex space-x-3">
+                          <div>
+                            <span class="h-8 w-8 rounded-full bg-blue-500 flex items-center justify-center ring-8 ring-white">
+                              <svg class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
+                            <div>
+                              <p class="text-sm text-gray-500">国際基準の変化</p>
+                              <p class="font-medium text-gray-900">海外では、**「人権への取り組み」**を開示することが義務化 (EUのCSRDなど)。</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                     <li>
+                      <div class="relative pb-8">
+                         <span class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>
+                        <div class="relative flex space-x-3">
+                          <div>
+                            <span class="h-8 w-8 rounded-full bg-green-500 flex items-center justify-center ring-8 ring-white">
+                               <svg class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path d="M8 4a1 1 0 100 2h4a1 1 0 100-2H8zM2 8a1 1 0 001 1h14a1 1 0 100-2H3a1 1 0 00-1 1zm0 5a1 1 0 001 1h14a1 1 0 100-2H3a1 1 0 00-1 1z" />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
+                            <div>
+                              <p class="text-sm text-gray-500">国内サプライチェーンの変化</p>
+                              <p class="font-medium text-gray-900">国内大手企業も、取引先の中小企業に**「脱炭素」「人権DD」**への対応を求め始めています。</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="relative">
+                        <div class="relative flex space-x-3">
+                          <div>
+                            <span class="h-8 w-8 rounded-full bg-yellow-500 flex items-center justify-center ring-8 ring-white">
+                             <svg class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
+                            <div>
+                              <p class="text-sm text-gray-500">結論</p>
+                              <p class="font-medium text-gray-900">**ESGに対応できない企業は、取引から外されるリスク**に直面します。</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <p class="mt-8 text-center text-lg font-semibold bg-indigo-50 p-6 rounded-lg text-indigo-800">DXとGXは、単なる業務改善ではありません。<br>これからの時代を生き抜くための、<span class="text-indigo-600">企業の信頼性と未来価値を高める“経営投資”</span>です。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">よくあるご質問</h2>
+            <div class="max-w-3xl mx-auto" x-data="{ open: 0 }">
+                <div class="border-b">
+                    <button @click="open = (open === 1 ? 0 : 1)" class="w-full text-left py-4 px-2 flex justify-between items-center">
+                        <span class="text-lg font-semibold">DXやGXのことを全く知らない社員でも受講できますか？</span>
+                        <svg class="w-6 h-6 transform transition-transform" :class="{ 'rotate-180': open === 1 }" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div x-show="open === 1" x-cloak class="pb-4 px-2 text-gray-600">はい、もちろんです。本研修は基礎から実践までを網羅しており、専門知識がない方でも安心してご参加いただけます。</div>
+                </div>
+                <div class="border-b">
+                    <button @click="open = (open === 2 ? 0 : 2)" class="w-full text-left py-4 px-2 flex justify-between items-center">
+                        <span class="text-lg font-semibold">研修はeラーニングですか？</span>
+                        <svg class="w-6 h-6 transform transition-transform" :class="{ 'rotate-180': open === 2 }" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div x-show="open === 2" x-cloak class="pb-4 px-2 text-gray-600">はい、eラーニング形式ですので、PCやスマートフォン、タブレットがあれば、いつでもどこでもご自身のペースで学習を進められます。</div>
+                </div>
+                <div class="border-b">
+                    <button @click="open = (open === 3 ? 0 : 3)" class="w-full text-left py-4 px-2 flex justify-between items-center">
+                        <span class="text-lg font-semibold">受講状況の管理はできますか？</span>
+                        <svg class="w-6 h-6 transform transition-transform" :class="{ 'rotate-180': open === 3 }" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div x-show="open === 3" x-cloak class="pb-4 px-2 text-gray-600">はい、LMS（学習管理システム）をご提供しますので、管理者様は各従業員の学習進捗状況を簡単に確認・管理できます。</div>
+                </div>
+                <div class="border-b">
+                    <button @click="open = (open === 4 ? 0 : 4)" class="w-full text-left py-4 px-2 flex justify-between items-center">
+                        <span class="text-lg font-semibold">助成金の申請もお願いできますか？</span>
+                        <svg class="w-6 h-6 transform transition-transform" :class="{ 'rotate-180': open === 4 }" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div x-show="open === 4" x-cloak class="pb-4 px-2 text-gray-600">はい、専門スタッフが助成金の申請から受給までを無料でフルサポートいたします。複雑な手続きはすべてお任せください。</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">まずはお気軽にご相談ください</h2>
+            <div class="max-w-xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
+                <form>
+                    <div class="mb-4">
+                        <label for="company" class="block text-gray-700 font-bold mb-2">会社名</label>
+                        <input type="text" id="company" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="株式会社〇〇">
+                    </div>
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-bold mb-2">お名前</label>
+                        <input type="text" id="name" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="山田 太郎" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-bold mb-2">メールアドレス</label>
+                        <input type="email" id="email" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="email@example.com" required>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-bold mb-2">お問い合わせ内容</label>
+                        <div class="space-y-2">
+                            <label class="flex items-center"><input type="checkbox" class="form-checkbox h-5 w-5 text-indigo-600"><span class="ml-2 text-gray-700">サービスについて詳しく知りたい</span></label>
+                            <label class="flex items-center"><input type="checkbox" class="form-checkbox h-5 w-5 text-indigo-600"><span class="ml-2 text-gray-700">助成金活用について相談したい</span></label>
+                            <label class="flex items-center"><input type="checkbox" class="form-checkbox h-5 w-5 text-indigo-600"><span class="ml-2 text-gray-700">サービスの導入を具体的に検討している</span></label>
+                        </div>
+                    </div>
+                    <button type="submit" class="w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-bold py-3 px-4 rounded-lg text-lg hover:opacity-90 transition duration-300 cta-button">
+                        送信する
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="download" class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold mb-2">研修内容・助成金の詳細はこちら</h3>
+                <p class="text-gray-400">より詳しい情報をまとめた資料を無料でダウンロードいただけます。</p>
+                <div class="mt-4">
+                    <a href="#" class="bg-white text-gray-800 font-bold py-3 px-8 rounded-full text-lg shadow-lg cta-button hover:bg-gray-200">
+                        今すぐ資料をダウンロード
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8">
+                <h4 class="text-xl font-bold mb-2">株式会社西河マネジメントセンター</h4>
+                <p class="text-gray-400 text-sm mb-2">〒618-0091 京都府乙訓郡大山崎町円明寺北浦2-6, 1-403</p>
+                <p class="text-gray-400 text-sm">中小企業診断士、社会保険労務士として1,000社以上のコンサル実績がございます。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</body>
+</html>
+
