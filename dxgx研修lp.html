@@ -51,10 +51,17 @@
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
         <div class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <div class="text-xl font-bold text-gray-800">
-                <span class="text-indigo-600">NMC</span> DX・GX研修
-            </div>
-            <a href="#contact" class="bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300 text-sm md:text-base cta-button">
+            <a href="#" class="flex items-center space-x-4">
+                <!-- Logo Placeholder -->
+                <div class="bg-indigo-600 text-white font-black text-2xl rounded-lg h-10 w-10 flex items-center justify-center flex-shrink-0">
+                    <span>N</span>
+                </div>
+                <div>
+                    <p class="text-sm font-semibold text-gray-600 whitespace-nowrap">株式会社西河マネジメントセンター</p>
+                    <p class="text-lg font-bold text-gray-800 leading-tight">DX・GX実践研修</p>
+                </div>
+            </a>
+            <a href="#contact" class="bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300 text-sm md:text-base cta-button whitespace-nowrap">
                 無料相談はこちら
             </a>
         </div>
@@ -238,30 +245,33 @@
     <section class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-6">
             <h2 class="section-title">DX・GXの推進がESG投資と<br>「選ばれる企業」への鍵になる</h2>
-            <div class="max-w-6xl mx-auto relative">
+            <div class="max-w-4xl mx-auto text-center">
                 <!-- Central Element -->
-                <div class="absolute inset-0 flex items-center justify-center">
-                    <div class="w-48 h-48 md:w-64 md:h-64 bg-indigo-600 rounded-full flex flex-col items-center justify-center text-white shadow-2xl z-10 p-4">
-                        <svg class="w-12 h-12 md:w-16 md:h-16 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"></path></svg>
-                        <span class="text-xl md:text-2xl font-bold">企業価値向上</span>
-                    </div>
+                <div class="inline-flex flex-col items-center justify-center bg-indigo-600 text-white w-48 h-48 rounded-full shadow-2xl p-4">
+                    <svg class="w-16 h-16 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"></path></svg>
+                    <span class="text-2xl font-bold">企業価値向上</span>
                 </div>
                 
+                <!-- Arrow Down -->
+                <div class="flex justify-center my-8">
+                    <svg class="w-12 h-12 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+                </div>
+    
                 <!-- Surrounding Cards -->
-                <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
-                    <div class="bg-gray-100 p-6 rounded-xl text-center z-0 transform lg:translate-y-24">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gray-100 p-6 rounded-xl">
                         <h3 class="text-xl font-bold text-indigo-700 mb-2">DX</h3>
                         <p class="text-sm text-gray-600">データ活用による透明性確保とサプライチェーンの可視化</p>
                     </div>
-                    <div class="bg-gray-100 p-6 rounded-xl text-center z-0 transform lg:-translate-y-24">
+                    <div class="bg-gray-100 p-6 rounded-xl">
                         <h3 class="text-xl font-bold text-green-700 mb-2">GX</h3>
                         <p class="text-sm text-gray-600">環境負荷軽減と持続可能なサプライチェーン構築</p>
                     </div>
-                    <div class="bg-gray-100 p-6 rounded-xl text-center z-0 transform lg:translate-y-24">
+                    <div class="bg-gray-100 p-6 rounded-xl">
                         <h3 class="text-xl font-bold text-purple-700 mb-2">ESG投資</h3>
                         <p class="text-sm text-gray-600">社会的責任への投資拡大と長期的な企業価値向上</p>
                     </div>
-                     <div class="bg-gray-100 p-6 rounded-xl text-center z-0 transform lg:-translate-y-24">
+                     <div class="bg-gray-100 p-6 rounded-xl">
                         <h3 class="text-xl font-bold text-rose-700 mb-2">人権価値創造</h3>
                         <p class="text-sm text-gray-600">公正な労働環境の実現と持続可能な社会貢献</p>
                     </div>
